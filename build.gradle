@@ -32,6 +32,8 @@ dependencies {
     compile("org.springframework:spring-web")
     compile("org.springframework.boot:spring-boot-devtools")
     compile("com.fasterxml.jackson.core:jackson-databind")
+    compile group: 'org.elasticsearch', name: 'elasticsearch', version: '7.5.2'
+    compile group: 'org.elasticsearch.client', name: 'elasticsearch-rest-high-level-client', version: '7.5.2'
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
     compile group: 'commons-codec', name: 'commons-codec', version: '1.13'
     compile group: 'com.jayway.jsonpath', name: 'json-path', version: '2.4.0'
